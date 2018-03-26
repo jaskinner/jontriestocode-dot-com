@@ -5,7 +5,7 @@
 
 
     // You can put here your email
-    $header = "From: jon.a.skinner1@gmail.com\r\n";
+//    $header = "From: jon.a.skinner1@gmail.com\r\n";
     $header.= "MIME-Version: 1.0\r\n";
     $header.= "Content-Type: text/plain; charset=utf-8\r\n";
     $header.= "X-Priority: 1\r\n";
