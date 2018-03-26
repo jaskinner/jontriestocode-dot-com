@@ -1,0 +1,53 @@
+// Footer
+footer.footer
+
+    .footer-widgets
+        .container
+
+            .row
+
+                .col-md-4
+                    // Text widget
+                    aside.widget.widget-text
+                        .widget-title
+                            h6 About Me
+                        .textwidget
+                            p Currently thriving in NYC.
+                            p
+                                |Location: 348 W 57th St, Suite 239<br>
+                                |E-mail: jon.a.skinner@me.com<br>
+                                |Phone: 919.744.7164<br>
+                            ul.social-icons
+                                li: a(href="#") #[i.fab.fa-twitter]
+                                li: a(href="#") #[i.fab.fa-instagram]
+                                li: a(href="#") #[i.fab.fa-facebook-f]
+                                li: a(href="#") #[i.fab.fa-pinterest-p]
+
+                .col-md-4
+                    // Twitter widget
+                    aside.widget.twitter-feed-widget
+                        .widget-title
+                            h6 Twitter Feed
+                        .twitter-feed(data-twitter="345170787868762112" data-number="1")
+
+                .col-md-4
+                    // Recent works
+                    aside.widget.widget-recent-works
+                        .widget-title
+                            h6 Portfolio
+                        ul
+                            li: a(href="#"): img(src="assets/images/widgets/1.jpg" alt="")
+                            li: a(href="#"): img(src="assets/images/widgets/2.jpg" alt="")
+                            li: a(href="#"): img(src="assets/images/widgets/3.jpg" alt="")
+                            li: a(href="#"): img(src="assets/images/widgets/7.jpg" alt="")
+                            li: a(href="#"): img(src="assets/images/widgets/8.jpg" alt="")
+                            li: a(href="#"): img(src="assets/images/widgets/6.jpg" alt="")
+
+    .footer-bar
+        .container
+
+            .row
+                .col-md-12
+                    .copyright
+                        p © 2018 Boomerang, All Rights Reserved. Design with love by #[a(href="#") 2theme]
+// Footer end
