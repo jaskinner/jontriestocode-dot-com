@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="18d3ce0d-b2b9-407d-9660-1e0adfd6bc1f" name="Default" comment="Content changes">
+    <list default="true" id="18d3ce0d-b2b9-407d-9660-1e0adfd6bc1f" name="Default" comment="Not a clue">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/dist/assets/js/custom/custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/dist/assets/js/custom/custom.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/dist/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,11 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/client/dist/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="301">
-              <caret line="66" column="107" selection-start-line="66" selection-start-column="101" selection-end-line="66" selection-end-column="107" />
+            <state relative-caret-position="321">
+              <caret line="235" column="33" selection-start-line="235" selection-start-column="33" selection-end-line="235" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -34,11 +34,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/dist/assets/js/custom/custom.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
-              <caret line="428" column="49" lean-forward="true" selection-start-line="428" selection-start-column="49" selection-end-line="428" selection-end-column="49" />
+            <state relative-caret-position="183">
+              <caret line="435" column="18" lean-forward="true" selection-start-line="435" selection-start-column="18" selection-end-line="435" selection-end-column="18" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -64,12 +64,12 @@
       <find>flat</find>
       <find>map</find>
       <find>http</find>
-      <find>submit</find>
       <find>submitsucc</find>
       <find>asset</find>
       <find>/</find>
-      <find>contact</find>
       <find>assets</find>
+      <find>submit</find>
+      <find>contact</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -92,9 +92,9 @@
         <option value="$PROJECT_DIR$/client/app/include/templates/footer.pug" />
         <option value="$PROJECT_DIR$/client/app/index.pug" />
         <option value="$PROJECT_DIR$/client/app/include/templates/layout.pug" />
-        <option value="$PROJECT_DIR$/client/dist/index.html" />
         <option value="$PROJECT_DIR$/client/dist/assets/js/custom/plugins.js" />
         <option value="$PROJECT_DIR$/client/dist/assets/php/contact.php" />
+        <option value="$PROJECT_DIR$/client/dist/index.html" />
         <option value="$PROJECT_DIR$/client/dist/assets/js/custom/custom.js" />
       </list>
     </option>
@@ -375,7 +375,7 @@
       <workItem from="1551077112600" duration="246000" />
       <workItem from="1551077490622" duration="538000" />
       <workItem from="1551105724518" duration="567000" />
-      <workItem from="1551147386081" duration="3994000" />
+      <workItem from="1551147386081" duration="4489000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit&#10;pug, bootstrap, gulp">
       <created>1522077405044</created>
@@ -447,11 +447,18 @@
       <option name="project" value="LOCAL" />
       <updated>1551151222061</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Not a clue">
+      <created>1551151725186</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1551151725186</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18399000" />
+    <option name="totallyTimeSpent" value="18894000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -503,7 +510,8 @@
     <MESSAGE value="Google analytics" />
     <MESSAGE value="Content changes" />
     <MESSAGE value="I have no idea how to test this" />
-    <option name="LAST_COMMIT_MESSAGE" value="I have no idea how to test this" />
+    <MESSAGE value="Not a clue" />
+    <option name="LAST_COMMIT_MESSAGE" value="Not a clue" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/client/README.md">
@@ -617,26 +625,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/dist/assets/js/custom/plugins.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/dist/assets/php/contact.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/dist/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="66" column="107" selection-start-line="66" selection-start-column="101" selection-end-line="66" selection-end-column="107" />
         </state>
       </provider>
     </entry>
@@ -650,13 +642,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/dist/assets/js/custom/custom.js">
+    <entry file="file://$PROJECT_DIR$/client/dist/assets/js/custom/plugins.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="428" column="49" lean-forward="true" selection-start-line="428" selection-start-column="49" selection-end-line="428" selection-end-column="49" />
+        <state>
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/dist/assets/js/custom/custom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="435" column="18" lean-forward="true" selection-start-line="435" selection-start-column="18" selection-end-line="435" selection-end-column="18" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/dist/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="235" column="33" selection-start-line="235" selection-start-column="33" selection-end-line="235" selection-end-column="33" />
         </state>
       </provider>
     </entry>
