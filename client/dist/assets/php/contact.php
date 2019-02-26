@@ -1,7 +1,7 @@
 <?php
 
     // Mail settings
-    $to      = "jon.a.skinner@me.com";
+    $to      = "jon.a.skinner1@gmail.com";
 
 
     // You can put here your email
