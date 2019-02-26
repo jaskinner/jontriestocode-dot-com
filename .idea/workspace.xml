@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="18d3ce0d-b2b9-407d-9660-1e0adfd6bc1f" name="Default" comment="Google analytics">
+    <list default="true" id="18d3ce0d-b2b9-407d-9660-1e0adfd6bc1f" name="Default" comment="Content changes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/dist/assets/js/custom/custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/dist/assets/js/custom/custom.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,11 +14,43 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/dist/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="562">
-              <caret line="184" column="40" selection-start-line="184" selection-start-column="40" selection-end-line="184" selection-end-column="40" />
+            <state relative-caret-position="301">
+              <caret line="66" column="107" selection-start-line="66" selection-start-column="101" selection-end-line="66" selection-end-column="107" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/dist/assets/js/custom/plugins.min.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/client/dist/assets/js/custom/custom.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="78">
+              <caret line="428" column="49" lean-forward="true" selection-start-line="428" selection-start-column="49" selection-end-line="428" selection-end-column="49" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/dist/assets/php/contact.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -32,6 +64,12 @@
       <find>flat</find>
       <find>map</find>
       <find>http</find>
+      <find>submit</find>
+      <find>submitsucc</find>
+      <find>asset</find>
+      <find>/</find>
+      <find>contact</find>
+      <find>assets</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -48,7 +86,6 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/client/README.md" />
         <option value="$PROJECT_DIR$/client/app/op-index.pug" />
-        <option value="$PROJECT_DIR$/client/dist/assets/php/contact.php" />
         <option value="$PROJECT_DIR$/client/app/assets/php/contact.php" />
         <option value="$PROJECT_DIR$/client/app/blog.pug" />
         <option value="$PROJECT_DIR$/client/app/include/templates/navigation/navigation-single.pug" />
@@ -56,6 +93,9 @@
         <option value="$PROJECT_DIR$/client/app/index.pug" />
         <option value="$PROJECT_DIR$/client/app/include/templates/layout.pug" />
         <option value="$PROJECT_DIR$/client/dist/index.html" />
+        <option value="$PROJECT_DIR$/client/dist/assets/js/custom/plugins.js" />
+        <option value="$PROJECT_DIR$/client/dist/assets/php/contact.php" />
+        <option value="$PROJECT_DIR$/client/dist/assets/js/custom/custom.js" />
       </list>
     </option>
   </component>
@@ -102,6 +142,23 @@
               <item name="client" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jontriestocode-dot-com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jontriestocode-dot-com" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="custom" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jontriestocode-dot-com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jontriestocode-dot-com" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
               <item name="php" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -116,6 +173,58 @@
               <item name="jontriestocode-dot-com" type="462c0819:PsiDirectoryNode" />
               <item name="client" type="462c0819:PsiDirectoryNode" />
               <item name="dist" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jontriestocode-dot-com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jontriestocode-dot-com" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jontriestocode-dot-com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jontriestocode-dot-com" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jontriestocode-dot-com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jontriestocode-dot-com" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="custom" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jontriestocode-dot-com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jontriestocode-dot-com" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="custom" type="462c0819:PsiDirectoryNode" />
+              <item name="custom.js" type="620a8d5e:NestingTreeNode" />
+            </path>
+            <path>
+              <item name="jontriestocode-dot-com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jontriestocode-dot-com" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="custom" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins.js" type="620a8d5e:NestingTreeNode" />
+            </path>
+            <path>
+              <item name="jontriestocode-dot-com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jontriestocode-dot-com" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="php" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -266,7 +375,7 @@
       <workItem from="1551077112600" duration="246000" />
       <workItem from="1551077490622" duration="538000" />
       <workItem from="1551105724518" duration="567000" />
-      <workItem from="1551147386081" duration="2064000" />
+      <workItem from="1551147386081" duration="3994000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit&#10;pug, bootstrap, gulp">
       <created>1522077405044</created>
@@ -324,11 +433,25 @@
       <option name="project" value="LOCAL" />
       <updated>1551106019203</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Content changes">
+      <created>1551149577699</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1551149577699</updated>
+    </task>
+    <task id="LOCAL-00010" summary="I have no idea how to test this">
+      <created>1551151222061</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1551151222061</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16469000" />
+    <option name="totallyTimeSpent" value="18399000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -349,7 +472,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.21836735" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.21836735" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="File Transfer" order="10" visible="true" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
@@ -378,7 +501,9 @@
     <MESSAGE value="Minifying images" />
     <MESSAGE value="Removing http content" />
     <MESSAGE value="Google analytics" />
-    <option name="LAST_COMMIT_MESSAGE" value="Google analytics" />
+    <MESSAGE value="Content changes" />
+    <MESSAGE value="I have no idea how to test this" />
+    <option name="LAST_COMMIT_MESSAGE" value="I have no idea how to test this" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/client/README.md">
@@ -401,13 +526,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2162">
           <caret line="43" column="20" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/dist/assets/php/contact.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="53" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="53" />
         </state>
       </provider>
     </entry>
@@ -487,10 +605,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/client/dist/assets/js/custom/plugins.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="220" column="11" selection-start-line="220" selection-start-column="4" selection-end-line="220" selection-end-column="11" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#56#63#1" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/dist/assets/js/custom/plugins.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/dist/assets/php/contact.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/client/dist/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="562">
-          <caret line="184" column="40" selection-start-line="184" selection-start-column="40" selection-end-line="184" selection-end-column="40" />
+        <state relative-caret-position="301">
+          <caret line="66" column="107" selection-start-line="66" selection-start-column="101" selection-end-line="66" selection-end-column="107" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app/assets/js/custom/custom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="483" column="44" selection-start-line="483" selection-start-column="37" selection-end-line="483" selection-end-column="44" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/dist/assets/js/custom/custom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="428" column="49" lean-forward="true" selection-start-line="428" selection-start-column="49" selection-end-line="428" selection-end-column="49" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
