@@ -10,7 +10,7 @@ html(lang="en")
         meta(name="msapplication-TileImage" content="/ms-icon-144x144.png")
         meta(name="theme-color" content="#ffffff")
 
-        title Boomerang - Template
+        title jonTriesToCode()
 
         block vars
 
@@ -66,26 +66,14 @@ html(lang="en")
                 // Brand
                 .inner-header
                     a.inner-brand(href="index.html")
-                        img(src="assets/images/logo.png")
+                        img.img-fluid()
 
                 // Navigation
                 .inner-navigation.collapse
-                    if ( header_one_page !== true )
-                        include navigation/navigation
-                    else
-                        include navigation/navigation-single
+                    include navigation/navigation-single
 
                 .extra-nav
                     ul
-                        if ( header_one_page !== true )
-                            li
-                                a(href="shop-cart-1.html" class="top-bar-cart")
-                                    span.menu-item-span #[i.ti-shopping-cart]
-                                        span 3
-                        li
-                            a(href="#" class="off-canvas-open")
-                                span.menu-item-span #[i.ti-menu]
-
                         //- Do not remove this item (mobile menu toggle)
                         li.nav-toggle
                             a(href="#" data-toggle="collapse" data-target=".inner-navigation")
@@ -104,10 +92,6 @@ html(lang="en")
             include footer
 
         // Wrapper end
-
-        include off-canvas
-
-        = "\n"
 
         // To top button
         a(href="#top" class="scroll-top"): i.fas.fa-angle-up

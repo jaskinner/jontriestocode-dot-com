@@ -9,7 +9,7 @@ append css
 append content
 
     // Hero
-    section.module-cover.parallax.fullscreen.text-center#home(data-background="assets/images/module-24.jpg" data-overlay="0.5")
+    section.module-cover.parallax.fullscreen.text-center#home(data-background="assets/images/desk-min.jpg" data-overlay="0.5")
         .container
 
             .row
@@ -56,35 +56,28 @@ append content
     = "\n"
 
     // Portfolio
-    section.module.p-b-0#portfolio
+    section.module
         .container
-
-            .row
-                .col-md-6.m-auto.text-center
-                    h1 Digital Design.
-                    p.lead See how your users experience your website in realtime or view trends to see any changes in performance over time.
-
-            .row
-                .col-md-12
-                    .space(data-MY="40px")
 
             .row
                 .col-md-12
                     ul.filters.serif
                         li: a(href="#" data-filter="*" class="current") All
-                        li: a(href="#" data-filter=".branding") Branding
-                        li: a(href="#" data-filter=".digital") Digital
-                        li: a(href="#" data-filter=".packaging") Packaging
+                        li: a(href="#" data-filter=".ui") User Interface
+                        li: a(href="#" data-filter=".backend") Backend Development
+                        li: a(href="#" data-filter=".design") Design
 
-        .container-fluid
             .row.row-portfolio(data-columns="3")
                 .grid-sizer
-                +PortfolioItem("assets/images/portfolio/1.jpg", "Solave Cleanser", "branding", "Digital")
-                +PortfolioItem("assets/images/portfolio/4.jpg", "Monochrome", "digital", "Branding")
-                +PortfolioItem("assets/images/portfolio/3.jpg", "Ellie Cashman", "packaging", "Packaging")
-                +PortfolioItem("assets/images/portfolio/6.jpg", "White Sleeve", "branding", "Digital")
-                +PortfolioItem("assets/images/portfolio/5.jpg", "Classic Socks", "digital", "Branding")
-                +PortfolioItem("assets/images/portfolio/2.jpg", "Expirience", "packaging", "Packaging")
+                +PortfolioItem("assets/images/portfolio/CBS_logo.svg", "CBS Corporation", "backend", "Digital", "https://cbscorporation.com")
+                +PortfolioItem("assets/images/portfolio/Logo-Lenovo.png", "Lenovo", "ui", "Packaging", "https://www.lenovo.com/us/en/")
+                +PortfolioItem("assets/images/portfolio/sensus-xylem.png", "Sensus", "backend", "Packaging", "https://sensus.com/")
+                +PortfolioItem("assets/images/portfolio/slash-logo.png", "Slash Slash Inc", "ui", "Digital", "https://slashslashinc.com")
+                +PortfolioItem("assets/images/portfolio/FBTMinimalBlack.png", "FBT Entertainment", "ui", "Branding", "https://fbtentertainment.com")
+                +PortfolioItem("assets/images/portfolio/dr-mcgill.png", "Dr. Mcgillicuddy", "ui", "Packaging", "https://drmcgillicuddy.com/")
+                +PortfolioItem("assets/images/portfolio/super-pretendo-transparent.png", "Super Pretendo", "design", "Packaging", "https://superpretendomusic.com")
+                +PortfolioItem("assets/images/portfolio/chelsea-cullen-logo.png", "Chelsea Cullen", "design", "Branding",  "https://chelseacullen.me")
+                +PortfolioItem("assets/images/portfolio/whale.png", "Oh Whales", "ui", "Packaging", "https://theohwhales.com")
     // Portfolio end
 
     = "\n"
@@ -260,7 +253,7 @@ append content
 
             .row
                 .col-md-8.m-auto
-                    form#contact-form(method="post" novalidate)
+                    form#contact-form(method="post" novalidate data-netlify="true")
                         .row
                             .col-md-6
                                 .form-group
@@ -280,8 +273,6 @@ append content
                             .col-md-12
                                 p
                                     input(type="submit" class="btn btn-block btn-brand" value="Send Message")
-                    // Ajax response
-                    #contact-response.ajax-response.text-center
     // Form end
 
     = "\n"

@@ -1,0 +1,11 @@
+.inner-brand img {
+  width: 200px;
+  content: url("/assets/images/logo-black.png");
+}
+
+@media (min-width: 992px) {
+  .inner-brand img {
+    content: url("/assets/images/logo.png");
+  }
+}
+

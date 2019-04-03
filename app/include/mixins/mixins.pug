@@ -160,15 +160,15 @@ mixin team(image, name, role)
 //- Portfolio
 //------------------------------------------------------------------
 
-mixin PortfolioItem(image, title, filter, category)
+mixin PortfolioItem(image, title, filter, category, url)
     .portfolio-item(class = filter)
         .portfolio-item-wrapper
-            .portfolio-item-img
+            .portfolio-item-img.text-center.m-md-4
                 img(src = image alt="")
             .portfolio-item-caption
                 h6.portfolio-item-title= title
                 span.portfolio-item-subtitle.serif= category
-            a.portfolio-item-link(href="portfolio-single-1.html")
+            a.portfolio-item-link(href= url, target="_blank")
 
 //------------------------------------------------------------------
 //- Icon Box Left
