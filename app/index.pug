@@ -14,10 +14,22 @@ append content
 
             .row
                 .col-md-12
-                    h1.m-b-20: strong Gear up to land <br> somewhere new.
+                    h1.m-b-20 Gear up to land <br> somewhere new.
                     p.m-b-40 Save time managing your Instagram accounts, publish <br> and analyze all your posts in one panel.
                     p: a(href="#" class="btn btn-circle btn-outline-new-white") Get Started
     // Hero end
+
+    = "\n"
+
+    section.module#cbs
+        .container
+            .row
+                .col-md-6.m-auto.text-center
+                    img.img-fluid(src="assets/images/portfolio/CBS_logo.svg")
+                .col-md-6.m-auto.text-center
+                    h1 This is explain
+                    p.lead this is more explainer
+                    p and this is the real deal my fella, you don't even knwo what it's like for thesee
 
     = "\n"
 
@@ -44,13 +56,13 @@ append content
 
             .row
                 .col-lg-3.col-md-6
-                    +IconBox("ti-layout", "Visual Composer", "Lorem ipsum dolor sit amet consectetuer adipiscing elit sed diam lorem ipsum amet.", "text-center", true)
+                    +IconBox("ti-layout", "User Interface Development", "They found their way from your Twitter to your website, let's keep them there with proven UI best practices.", "text-center", false)
                 .col-lg-3.col-md-6
-                    +IconBox("ti-cup", "Revolution Slider", "Lorem ipsum dolor sit amet consectetuer adipiscing elit sed diam lorem ipsum amet.", "text-center", true)
+                    +IconBox("ti-harddrives", "Server-side Development", "Data drives the web, let's just make sure it's not driving away conversions by ensuring fast and accurate data delivery.", "text-center", false)
                 .col-lg-3.col-md-6
-                    +IconBox("ti-harddrives", "User Experience", "Lorem ipsum dolor sit amet consectetuer adipiscing elit sed diam lorem ipsum amet.", "text-center", true)
+                    +IconBox("ti-cup", "Wordpress Development", "It's the number one blog platform in the world, but what sets yours apart? Let's fix your theme and SEO and get you seen.", "text-center", false)
                 .col-lg-3.col-md-6
-                    +IconBox("ti-desktop", "Fully Responsive", "Lorem ipsum dolor sit amet consectetuer adipiscing elit sed diam lorem ipsum amet.", "text-center", true)
+                    +IconBox("ti-desktop", "ServiceNow Development", "ServiceNow is huge, but I'll help you navigate through it as a ServiceNow Certified System Administrator and developer.", "text-center", false)
     // About end
 
     = "\n"
@@ -69,15 +81,16 @@ append content
 
             .row.row-portfolio(data-columns="3")
                 .grid-sizer
-                +PortfolioItem("assets/images/portfolio/CBS_logo.svg", "CBS Corporation", "backend", "Digital", "https://cbscorporation.com")
-                +PortfolioItem("assets/images/portfolio/Logo-Lenovo.png", "Lenovo", "ui", "Packaging", "https://www.lenovo.com/us/en/")
-                +PortfolioItem("assets/images/portfolio/sensus-xylem.png", "Sensus", "backend", "Packaging", "https://sensus.com/")
-                +PortfolioItem("assets/images/portfolio/slash-logo.png", "Slash Slash Inc", "ui", "Digital", "https://slashslashinc.com")
-                +PortfolioItem("assets/images/portfolio/FBTMinimalBlack.png", "FBT Entertainment", "ui", "Branding", "https://fbtentertainment.com")
-                +PortfolioItem("assets/images/portfolio/dr-mcgill.png", "Dr. Mcgillicuddy", "ui", "Packaging", "https://drmcgillicuddy.com/")
-                +PortfolioItem("assets/images/portfolio/super-pretendo-transparent.png", "Super Pretendo", "design", "Packaging", "https://superpretendomusic.com")
-                +PortfolioItem("assets/images/portfolio/chelsea-cullen-logo.png", "Chelsea Cullen", "design", "Branding",  "https://chelseacullen.me")
-                +PortfolioItem("assets/images/portfolio/whale.png", "Oh Whales", "ui", "Packaging", "https://theohwhales.com")
+                +PortfolioItem("assets/images/portfolio/CBS_logo.svg", "CBS Corporation", "backend", "Wordpress, ServiceNow", "https://cbscorporation.com")
+                +PortfolioItem("assets/images/portfolio/Logo-Lenovo.png", "Lenovo", "ui", "JavaScript, CSS", "https://www.lenovo.com/us/en/")
+                +PortfolioItem("assets/images/portfolio/sensus-xylem.png", "Sensus", "backend", "Python, Django", "https://sensus.com/")
+                +PortfolioItem("assets/images/portfolio/transcirrus.jpg", "Transcirrus", "backend", "Python, Django", "https://transcirrus.com/")
+                +PortfolioItem("assets/images/portfolio/slash-logo.png", "Slash Slash Inc", "ui", "Owner, Literally Everything", "https://slashslashinc.com")
+                +PortfolioItem("assets/images/portfolio/FBTMinimalBlack.png", "FBT Entertainment", "ui", "Shopify, Google Apps", "https://fbtentertainment.com")
+                +PortfolioItem("assets/images/portfolio/dr-mcgill.png", "Dr. McGillicuddy", "ui", "Python, Django", "https://drmcgillicuddy.com/")
+                +PortfolioItem("assets/images/portfolio/super-pretendo-transparent.png", "Super Pretendo", "design", "Vuejs, Netlify", "https://superpretendomusic.com")
+                +PortfolioItem("assets/images/portfolio/chelsea-cullen-logo.png", "Chelsea Cullen", "design", "Vuejs, Netlify",  "https://chelseacullen.me")
+                +PortfolioItem("assets/images/portfolio/whale.png", "Oh Whales", "ui", "Netlify, Static", "https://theohwhales.com")
     // Portfolio end
 
     = "\n"
@@ -102,142 +115,6 @@ append content
     // Services end
     = "\n"
 
-    // Alt Services
-    section.module.bg-gray
-        .container
-
-            .row.align-items-center
-
-                .col-lg-6
-                    img(src="assets/images/main/ipad.png" alt="")
-
-                .col-lg-5.offset-lg-1
-                    h2 Flexible & Lightweight.
-                    p.lead Map where your photos were taken and discover local points of interest. Map where your photos. Map where your photos were taken and discover.
-                    .space(data-MY="50px")
-                    +iconBoxLeft("ti-layout", "Visual Composer", "Map where your photos were taken and discover local points of interest. Map where your photos. Map where your photos were taken and discover.")
-                    +iconBoxLeft("ti-cup", "Revolution Slider", "Map where your photos were taken and discover local points of interest. Map where your photos. Map where your photos were taken and discover.")
-                    +iconBoxLeft("ti-harddrives", "User Experience", "Map where your photos were taken and discover local points of interest. Map where your photos. Map where your photos were taken and discover.")
-    // Alt Services end
-
-    = "\n"
-
-    // Team
-    section.module#team
-        .container
-
-            .row
-                .col-md-6.m-auto.text-center
-                    h1 Creative People.
-                    p.lead See how your users experience your website in realtime or view trends to see any changes in performance over time.
-
-            .row
-                .col-md-12
-                    .space(data-MY="60px")
-
-            .row
-                .col-lg-4.col-md-6
-                    +team("assets/images/team/1.jpg", "Emma Connor", "Designer")
-                .col-lg-4.col-md-6
-                    +team("assets/images/team/2.jpg", "Richard Bauer", "Developer")
-                .col-lg-4.col-md-6
-                    +team("assets/images/team/3.jpg", "John Pope", "Founder")
-                .col-lg-4.col-md-6
-                    +team("assets/images/team/4.jpg", "Sara Smith", "Designer")
-                .col-lg-4.col-md-6
-                    +team("assets/images/team/5.jpg", "Emma Connor", "Developer")
-                .col-lg-4.col-md-6
-                    +team("assets/images/team/6.jpg", "Peter Chapman", "Founder")
-
-            .row
-                .col-md-12
-                    .space(data-MY="30px")
-
-            .row
-                .col-md-12
-                    p.text-center: a(href="#" class="btn btn-circle btn-outline-brand") About Us
-    // Team end
-
-    = "\n"
-
-    // Testimonials
-    section.module.parallax(data-background="assets/images/module-12.jpg" data-overlay="0.5")
-        .container
-
-            .row
-                .col-md-12
-                    .space(data-MY="50px")
-
-            .row
-                .col-md-12
-                    .review-slides.owl-carousel
-                        +TestimonialsSlider("Albert Einstein", "I don't work from drawings. I don't make sketches and drawings <br/> and color sketches into a final painting.")
-                        +TestimonialsSlider("Ralph Waldo Emerson", "To be yourself in a world that is constantly trying to make you <br/> something else is the greatest accomplishment.")
-                        +TestimonialsSlider("Marilyn Monroe", "Imperfection is beauty, madness is genius and it's better to be <br/> absolutely ridiculous than absolutely boring.")
-
-            .row
-                .col-md-12
-                    .space(data-MY="50px")
-    // Testimonials end
-
-    = "\n"
-
-    // Clients
-    section.module.bg-gray.p-t-0.p-b-40
-        .container
-
-            .space(data-MY="-60px")
-
-            .row
-                +pricing("Starter", "Free", false, "ti-slice")
-                +pricing("Standard", "45", true, "ti-pin-alt")
-                +pricing("Professional", "69", true, "ti-marker-alt")
-
-            .row
-                .col-md-10.m-auto
-                    .owl-carousel.clients-carousel
-                        .client
-                            img(src="assets/images/clients/1.png" alt="")
-                        .client
-                            img(src="assets/images/clients/2.png" alt="")
-                        .client
-                            img(src="assets/images/clients/3.png" alt="")
-                        .client
-                            img(src="assets/images/clients/4.png" alt="")
-                        .client
-                            img(src="assets/images/clients/5.png" alt="")
-                        .client
-                            img(src="assets/images/clients/6.png" alt="")
-                        .client
-                            img(src="assets/images/clients/7.png" alt="")
-    // Clients end
-
-    = "\n"
-
-    // Posts
-    section.module#blog
-        .container
-
-            .row
-                .col-md-6.m-auto.text-center
-                    h1 Latest articles.
-                    p.lead See how your users experience your website in realtime or view trends to see any changes in performance over time.
-
-            .row
-                .col-md-12
-                    .space(data-MY="60px")
-
-            .row.row-post-masonry
-                .col-md-4.post-item
-                    +PostMasonry("assets/images/blog/1.jpg", "Bluetooth Speaker")
-                .col-md-4.post-item
-                    +PostMasonry("assets/images/blog/3.jpg", "Minimalist Chandelier")
-                .col-md-4.post-item
-                    +PostMasonry("assets/images/blog/5.jpg", "Standard Shape")
-    // Posts end
-
-    = "\n"
-
     // Form
     section.module.divider-top#contact
         .container
@@ -245,7 +122,8 @@ append content
             .row
                 .col-lg-6.col-md-9.m-auto.text-center
                     h1 Let's talk.
-                    p.lead See how your users experience your website in realtime or view trends to see any changes in performance over time.
+                    p.lead I'm always heavily motivated by coffee, so if you're in the area,&nbsp;
+                        a(href="http://www.thirdplaceraleigh.com/" target="_blank") here's a great place we can chat!
 
             .row
                 .col-md-12
@@ -274,23 +152,6 @@ append content
                                 p
                                     input(type="submit" class="btn btn-block btn-brand" value="Send Message")
     // Form end
-
-    = "\n"
-
-    // Counters
-    section.module.bg-gray.p-b-0
-        .container
-
-            .row
-                .col-md-3
-                    +Counter("Happy Clients", "1538", "icon-energy icons")
-                .col-md-3
-                    +Counter("Total downloads", "2124", "icon-game-controller icons")
-                .col-md-3
-                    +Counter("Awards Won", "3128", "icon-fire icons")
-                .col-md-3
-                    +Counter("Theme Users", "9534", "icon-diamond icons")
-    // Counters end
 
     = "\n"
 

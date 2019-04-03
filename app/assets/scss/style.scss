@@ -1,11 +1,13 @@
-.inner-brand img {
-  width: 200px;
-  content: url("/assets/images/logo-black.png");
+@import url("https://use.typekit.net/owx4dww.css");
+@import url("https://use.typekit.net/owx4dww.css");
+
+body * {
+  font-weight: 300;
 }
 
-@media (min-width: 992px) {
-  .inner-brand img {
-    content: url("/assets/images/logo.png");
-  }
+.serif {}
+
+a.inner-brand {
+  font-weight: 200;
 }
 
