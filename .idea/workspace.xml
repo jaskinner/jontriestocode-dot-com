@@ -1,9 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="18d3ce0d-b2b9-407d-9660-1e0adfd6bc1f" name="Default" comment="Added first client section&#10;Trimmed somem fat">
+    <list default="true" id="18d3ce0d-b2b9-407d-9660-1e0adfd6bc1f" name="Default" comment="Almost there&#10;Structure finished">
+      <change afterPath="$PROJECT_DIR$/app/assets/images/android-icon-144x144.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/images/android-icon-192x192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/images/android-icon-36x36.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/images/android-icon-48x48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/images/android-icon-72x72.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/images/android-icon-96x96.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/images/apple-icon-114x114.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/images/apple-icon-120x120.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/images/apple-icon-144x144.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/images/apple-icon-152x152.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/images/apple-icon-180x180.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/images/apple-icon-57x57.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/images/apple-icon-60x60.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/images/apple-icon-72x72.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/images/apple-icon-76x76.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/images/apple-icon-precomposed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/images/apple-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/images/browserconfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/images/favicon-16x16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/images/favicon-32x32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/images/favicon-96x96.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/images/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/images/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/images/ms-icon-144x144.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/images/ms-icon-150x150.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/images/ms-icon-310x310.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/images/ms-icon-70x70.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/images/portfolio/Logo-Lenovo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/images/portfolio/dr-mcgill.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/images/portfolio/sensus-xylem.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/images/portfolio/transcirrus.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/images/work/devin_and_jon.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/images/work/fbt_team.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/images/work/nyc.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/assets/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/scss/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/include/templates/footer.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/include/templates/footer.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.pug" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -21,8 +56,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/index.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
-              <caret line="136" column="32" lean-forward="true" selection-start-line="136" selection-start-column="32" selection-end-line="136" selection-end-column="32" />
+            <state relative-caret-position="308">
+              <caret line="57" column="254" selection-start-line="57" selection-start-column="254" selection-end-line="57" selection-end-column="254" />
             </state>
           </provider>
         </entry>
@@ -30,8 +65,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/include/templates/navigation/navigation-single.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="240">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
@@ -39,7 +74,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/include/templates/layout.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1005">
+            <state relative-caret-position="376">
               <caret line="67" column="51" selection-start-line="67" selection-start-column="51" selection-end-line="67" selection-end-column="51" />
             </state>
           </provider>
@@ -57,8 +92,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/scss/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="389">
+              <caret line="27" column="35" lean-forward="true" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/include/templates/footer.pug">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -66,7 +110,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/scss/variables.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="645">
+            <state relative-caret-position="265">
               <caret line="43" column="40" selection-start-line="43" selection-start-column="40" selection-end-line="43" selection-end-column="40" />
             </state>
           </provider>
@@ -134,9 +178,10 @@
         <option value="$PROJECT_DIR$/app/assets/scss/template.scss" />
         <option value="$PROJECT_DIR$/app/include/mixins/mixins.pug" />
         <option value="$PROJECT_DIR$/app/include/templates/layout.pug" />
-        <option value="$PROJECT_DIR$/app/include/templates/navigation/navigation-single.pug" />
         <option value="$PROJECT_DIR$/app/assets/scss/variables.scss" />
+        <option value="$PROJECT_DIR$/app/include/templates/navigation/navigation-single.pug" />
         <option value="$PROJECT_DIR$/app/assets/scss/style.scss" />
+        <option value="$PROJECT_DIR$/app/include/templates/footer.pug" />
         <option value="$PROJECT_DIR$/app/index.pug" />
       </list>
     </option>
@@ -191,6 +236,14 @@
               <item name="jontriestocode-dot-com" type="b2602c69:ProjectViewProjectNode" />
               <item name="jontriestocode-dot-com" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="work" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jontriestocode-dot-com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jontriestocode-dot-com" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="include" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -240,17 +293,17 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/assets/images/work" />
+      <recent name="$PROJECT_DIR$/app/assets/images/portfolio" />
+      <recent name="$PROJECT_DIR$/app/assets/images" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/app" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app/assets/images/portfolio" />
       <recent name="$PROJECT_DIR$/app/assets/images" />
       <recent name="$PROJECT_DIR$/app/assets" />
-      <recent name="$PROJECT_DIR$/app" />
-      <recent name="$PROJECT_DIR$/client/app/assets/images" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app/assets/images/portfolio" />
-      <recent name="$PROJECT_DIR$/app/assets/images" />
-      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/app" />
       <recent name="$PROJECT_DIR$/client/app/assets/images" />
     </key>
@@ -332,7 +385,7 @@
       <workItem from="1554257332068" duration="8706000" />
       <workItem from="1554274942479" duration="349000" />
       <workItem from="1554312220439" duration="7934000" />
-      <workItem from="1554331000759" duration="1911000" />
+      <workItem from="1554331000759" duration="6958000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit&#10;pug, bootstrap, gulp">
       <created>1522077405044</created>
@@ -432,17 +485,24 @@
       <option name="project" value="LOCAL" />
       <updated>1554330764285</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Almost there&#10;Structure finished">
+      <created>1554333770365</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1554333770365</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38701000" />
+    <option name="totallyTimeSpent" value="43748000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17678382" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2026862" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
@@ -457,7 +517,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.1940594" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.2" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32959184" />
       <window_info anchor="bottom" id="File Transfer" order="10" visible="true" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
@@ -493,10 +553,10 @@
     <MESSAGE value="Resetting back to pug for rebuild" />
     <MESSAGE value="Changed client portfolio grid" />
     <MESSAGE value="Added first client section&#10;Trimmed somem fat" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added first client section&#10;Trimmed somem fat" />
+    <MESSAGE value="Almost there&#10;Structure finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="Almost there&#10;Structure finished" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/client/app/include/templates/off-canvas.pug" />
     <entry file="file://$PROJECT_DIR$/client/app/assets/images/map-icon.png" />
     <entry file="file://$PROJECT_DIR$/client/app/include/templates/navigation/navigation-single.pug" />
     <entry file="file://$PROJECT_DIR$/client/app/assets/images/logo.png" />
@@ -591,20 +651,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/include/templates/navigation/navigation-single.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/include/templates/layout.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1005">
-          <caret line="67" column="51" selection-start-line="67" selection-start-column="51" selection-end-line="67" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/include/mixins/mixins.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2550">
@@ -612,24 +658,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/include/templates/navigation/navigation-single.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/scss/variables.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
+        <state relative-caret-position="265">
           <caret line="43" column="40" selection-start-line="43" selection-start-column="40" selection-end-line="43" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/include/templates/layout.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="67" column="51" selection-start-line="67" selection-start-column="51" selection-end-line="67" selection-end-column="51" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/scss/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="389">
+          <caret line="27" column="35" lean-forward="true" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/include/templates/footer.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/index.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="136" column="32" lean-forward="true" selection-start-line="136" selection-start-column="32" selection-end-line="136" selection-end-column="32" />
+        <state relative-caret-position="308">
+          <caret line="57" column="254" selection-start-line="57" selection-start-column="254" selection-end-line="57" selection-end-column="254" />
         </state>
       </provider>
     </entry>
