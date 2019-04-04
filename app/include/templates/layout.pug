@@ -2,6 +2,16 @@ include ../mixins/mixins
 doctype html
 html(lang="en")
     head
+        script(async src="https://www.googletagmanager.com/gtag/js?id=UA-123795143-2")
+        script.
+            window.dataLayer = window.dataLayer || []
+            function gtag() {
+                dataLayer.push(arguments)
+            }
+            gtag('js', new Date())
+
+            gtag('config', 'UA-123795143-2')
+
         meta(charset="UTF-8")
         meta(name="viewport" content="width=device-width, initial-scale=1.0")
         meta(name="description" content="Jon Skinner is a ServiceNow CSA and web developer in Raleigh")
