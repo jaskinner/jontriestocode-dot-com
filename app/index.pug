@@ -119,26 +119,27 @@ append content
 
             .row
                 .col-md-8.m-auto
-                    form#contact-form(method="post" data-netlify="true" novalidate)
-                        .row
-                            .col-md-6
-                                .form-group
-                                    input.form-control(type="text" name="name" placeholder="Name" required="")
-                                    p.help-block.text-danger
-                            .col-md-6
-                                .form-group
-                                    input.form-control(type="email" name="email" placeholder="E-mail" required="")
-                                    p.help-block.text-danger
-                            .col-md-12
-                                .form-group
-                                    input.form-control(type="text" name="subject" placeholder="Subject" required="")
-                                    p.help-block.text-danger
-                            .col-md-12
-                                .form-group
-                                    textarea.form-control(name="message" placeholder="Message" rows="12" required="")
-                            .col-md-12
-                                p
-                                    input(type="submit" class="btn btn-block btn-brand" value="Send Message")
+                    | <form id="contact-form" method="post" netlify novalidate><div class="row"><div class="col-md-6"><div class="form-group"><input class="form-control" type="text" name="name" placeholder="Name" required=""><p class="help-block text-danger"></p></div></div><div class="col-md-6"><div class="form-group"><input class="form-control" type="email" name="email" placeholder="E-mail" required=""><p class="help-block text-danger"></p></div></div><div class="col-md-12"><div class="form-group"><input class="form-control" type="text" name="subject" placeholder="Subject" required=""<p class="help-block text-danger"></p></div></div><div class="col-md-12"><div class="form-group"><textarea class="form-control" name="message" placeholder="Message" rows="12" required=""></textarea></div></div><div class="col-md-12"><p><input class="btn btn-block btn-brand" type="submit" value="Send Message"></p></div></div></form>
+                    //form#contact-form(method="post" data-netlify="true" novalidate)
+                    //    .row
+                    //        .col-md-6
+                    //            .form-group
+                    //                input.form-control(type="text" name="name" placeholder="Name" required="")
+                    //                p.help-block.text-danger
+                    //        .col-md-6
+                    //            .form-group
+                    //                input.form-control(type="email" name="email" placeholder="E-mail" required="")
+                    //                p.help-block.text-danger
+                    //        .col-md-12
+                    //            .form-group
+                    //                input.form-control(type="text" name="subject" placeholder="Subject" required="")
+                    //                p.help-block.text-danger
+                    //        .col-md-12
+                    //            .form-group
+                    //                textarea.form-control(name="message" placeholder="Message" rows="12" required="")
+                    //        .col-md-12
+                    //            p
+                    //                input(type="submit" class="btn btn-block btn-brand" value="Send Message")
     // Form end
 
     = "\n"
