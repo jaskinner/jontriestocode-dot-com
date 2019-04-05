@@ -31,11 +31,6 @@ a.inner-brand {
 
 #cbs-work, #fbt-work, #slash-work {
   position: relative;
-  -webkit-transition: all .5ms;
-  -moz-transition: all .5ms;
-  -ms-transition: all .5ms;
-  -o-transition: all .5ms;
-  transition: all .5ms;
   background-size: cover;
   background-blend-mode: screen;
 
@@ -56,6 +51,15 @@ a.inner-brand {
 
   img {
     z-index: 1;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+
+    &:hover {
+      transform: scale(0.95);
+    }
   }
 }
 
