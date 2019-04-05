@@ -1,5 +1,6 @@
 {
   "devDependencies": {
+    "aos": "^2.3.4",
     "autoprefixer": "^6.1.0",
     "emitty": "^1.4.0",
     "gulp": "^3.9.1",

@@ -7,6 +7,10 @@ body * {
 
 .client-section {
   height: 50vh;
+
+  img {
+    max-height: 100%;
+  }
 }
 
 a.inner-brand {
@@ -58,5 +62,13 @@ a.inner-brand {
 @media (min-width: 768px) {
   .client-section {
     height: 50vw;
+  }
+}
+
+/* Landscape */
+@media only screen
+and (orientation: landscape) {
+  .client-section {
+    height: 100vh;
   }
 }

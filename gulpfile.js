@@ -21,9 +21,10 @@ var gulp             = require('gulp'),
 var Paths = {
     DIST:  'dist',
     PUG:   'app/*.pug',
+    LIB:   'app/assets/lib/',
     JS:    'app/assets/js/custom/',
     B_JS:  'app/assets/js/bootstrap/',
-    CSS:   'app/assets/css/',
+    CSS:   'app/assets/',
     PHP:   'app/assets/php/',
     IMG:   'app/assets/images/',
     FONTS: 'app/assets/fonts/**/*.*',
@@ -116,6 +117,7 @@ gulp.task('js-plugins', function() {
         Paths.JS + 'jarallax-video.js',
         Paths.JS + 'submenu-fix.js',
         Paths.JS + 'prism.js',
+        Paths.LIB + 'aos/aos.js'
     ])
     .pipe(gulp.dest(Paths.DIST + '/assets/js/custom/'))
     .pipe(concat('plugins.js'))
@@ -145,7 +147,7 @@ gulp.task('js-core', function() {
 
 // CSS
 gulp.task('css', function() {
-    gulp.src(Paths.CSS + '*.css')
+    gulp.src(Paths.CSS + '**/*.css')
         .pipe(gulp.dest(Paths.DIST + '/assets/css/'))
         .pipe(concat('plugins.css'))
         .pipe(minify({keepBreaks: false}))
