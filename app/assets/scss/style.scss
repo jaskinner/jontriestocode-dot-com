@@ -63,6 +63,15 @@ a.inner-brand {
   }
 }
 
+#logo-section {
+  a {
+    display: block;
+    img {
+      width: 120px;
+    }
+  }
+}
+
 @media (min-width: 768px) {
   .client-section {
     height: 50vw;
