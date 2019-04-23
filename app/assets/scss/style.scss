@@ -70,8 +70,26 @@ a.inner-brand {
 #logo-section {
   a {
     display: block;
+    border-radius: 3px;
+    text-decoration: none;
+    color: white;
+
+    &:hover {
+      background-color: #FFC104;
+
+      img {
+        padding: 0.5rem;
+      }
+    }
+
     img {
       width: 120px;
+      transition: all 0.2s;
+    }
+
+    .logo-text {
+      position: relative;
+      bottom: 0;
     }
   }
 }
