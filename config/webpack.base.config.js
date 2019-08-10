@@ -2,6 +2,7 @@
 const path = require('path')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
+const { CleanWebpackPlugin } = require('clean-webpack-plugin')
 
 function resolve(dir) {
     return path.join(__dirname, '..', dir)
@@ -29,7 +30,12 @@ module.exports = {
             {
                 test: /\.(png|jpg|JPG)$/,
                 use: [
-                    'file-loader',
+                    {
+                        loader: "file-loader",
+                        options: {
+                            name: "images/[name].[ext]"
+                        }
+                    },
                     {
                         loader: "image-webpack-loader",
                         options: {
@@ -49,6 +55,9 @@ module.exports = {
         new HtmlWebpackPlugin({
             title: "jontriestocode()",
             template: "./src/index.html"
+        }),
+        new CleanWebpackPlugin({
+            dry: true
         })
-    ]
+    ],
 }
