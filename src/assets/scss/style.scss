@@ -1,0 +1,109 @@
+@import url("https://use.typekit.net/owx4dww.css");
+@import url("https://use.typekit.net/owx4dww.css");
+
+body * {
+  font-weight: 300;
+}
+
+.client-section {
+  height: 50vh;
+
+  a {
+    width: 100%;
+  }
+
+  img {
+    max-height: 100%;
+  }
+}
+
+a.inner-brand {
+  font-weight: 200;
+}
+
+#cbs-work {
+  background: url("../images/work/nyc.jpg") center center no-repeat;
+}
+
+#slash-work {
+  background: url("../images/work/devin_and_jon.jpg") lightblue center center no-repeat;
+}
+
+#fbt-work {
+  background: url("../images/work/fbt_team.JPG") center center no-repeat;
+}
+
+#cbs-work, #fbt-work, #slash-work {
+  position: relative;
+  background-size: cover;
+  background-blend-mode: screen;
+
+  &:before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: white;
+    transition: all 500ms;
+  }
+
+  &:hover:before {
+    background-color: transparent;
+  }
+
+  img {
+    z-index: 1;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+
+    &:hover {
+      transform: scale(0.95);
+    }
+  }
+}
+
+#logo-section {
+  a {
+    display: block;
+    border-radius: 3px;
+    text-decoration: none;
+    color: white;
+
+    &:hover {
+      background-color: #FFC104;
+
+      img {
+        padding: 0.5rem;
+      }
+    }
+
+    img {
+      width: 120px;
+      transition: all 0.2s;
+    }
+
+    .logo-text {
+      position: relative;
+      bottom: 0;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .client-section {
+    height: 50vw;
+  }
+}
+
+/* Landscape */
+@media only screen
+and (orientation: landscape) {
+  .client-section {
+    height: 100vh;
+  }
+}
