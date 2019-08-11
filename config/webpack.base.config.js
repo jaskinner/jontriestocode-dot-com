@@ -3,6 +3,7 @@ const path = require('path')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const { CleanWebpackPlugin } = require('clean-webpack-plugin')
+const webpack = require('webpack')
 
 function resolve(dir) {
     return path.join(__dirname, '..', dir)
@@ -58,6 +59,11 @@ module.exports = {
         }),
         new CleanWebpackPlugin({
             dry: true
+        }),
+        new webpack.ProvidePlugin({
+            $: "jquery",
+            jQuery: 'jquery',
+            AOS: 'aos'
         })
     ],
 }
