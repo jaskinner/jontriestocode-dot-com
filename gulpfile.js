@@ -34,7 +34,7 @@ var Paths = {
 // Server
 gulp.task('server', function() {
     connect.server({
-        root: 'dist',
+        root: './dist',
         livereload: {
             enable: true,
             port: 36700
@@ -42,13 +42,6 @@ gulp.task('server', function() {
         port: 8888
     });
     opn('http://localhost:8888');
-});
-
-// PHP
-gulp.task('php', function() {
-    gulp.src(Paths.PHP + '*.php')
-        .pipe(gulp.dest(Paths.DIST + '/assets/php/'))
-        .pipe(connect.reload());
 });
 
 // Pug
@@ -99,25 +92,10 @@ gulp.task('js-jquery', function() {
 // JS
 gulp.task('js-plugins', function() {
     gulp.src([
-        Paths.JS + 'appear.js',
-        Paths.JS + 'gmap3.js',
         Paths.JS + 'imagesloaded.pkgd.js',
         Paths.JS + 'isotope.pkgd.js',
-        Paths.JS + 'jqBootstrapValidation.js',
-        Paths.JS + 'jquery.superslides.js',
-        Paths.JS + 'jquery.fitvids.js',
-        Paths.JS + 'jquery.magnific-popup.js',
-        Paths.JS + 'jquery.easypiechart.js',
-        Paths.JS + 'owl.carousel.js',
-        Paths.JS + 'twitterFetcher.js',
-        Paths.JS + 'jquery.countTo.js',
-        Paths.JS + 'jquery.sticky-kit.js',
         Paths.JS + 'jquery.singlePageNav.js',
-        Paths.JS + 'jarallax.js',
-        Paths.JS + 'jarallax-video.js',
-        Paths.JS + 'submenu-fix.js',
-        Paths.JS + 'prism.js',
-        Paths.LIB + 'aos/aos.js'
+        Paths.JS + 'aos.js'
     ])
     .pipe(gulp.dest(Paths.DIST + '/assets/js/custom/'))
     .pipe(concat('plugins.js'))
@@ -192,7 +170,7 @@ gulp.task('build', [
     'images',
     'fonts',
     'video',
-    'php'
+    // 'php'
 ]);
 
 // Watch
@@ -206,7 +184,7 @@ gulp.task('watch', function() {
     gulp.watch(Paths.JS + 'custom.js', ['js-core']);
     gulp.watch(Paths.JS + '*.js', ['js-plugins']);
     gulp.watch(Paths.CSS + '*.css', ['css']);
-    gulp.watch(Paths.PHP + '*.php', ['php']);
+    // gulp.watch(Paths.PHP + '*.php', ['php']);
     gulp.watch(Paths.IMG + '**/*.*', ['images']);
     gulp.watch(Paths.B_JS + '*.js', ['js-bootstrap']);
     gulp.watch(Paths.FONTS, ['fonts']);
