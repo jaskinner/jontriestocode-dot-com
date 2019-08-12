@@ -22,7 +22,6 @@ module.exports = {
             {
                 test: /\.scss$/,
                 use: [
-                    // process.env.NODE_ENV !== 'production' ? 'style-loader' : MiniCssExtractPlugin.loader,
                     MiniCssExtractPlugin.loader,
                     'css-loader',
                     'sass-loader'
@@ -66,8 +65,7 @@ module.exports = {
         }),
         new webpack.ProvidePlugin({
             $: "jquery",
-            jQuery: 'jquery',
-            AOS: 'aos'
+            jQuery: 'jquery'
         })
     ],
 }
