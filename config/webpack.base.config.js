@@ -31,17 +31,14 @@ module.exports = {
                 test: /\.(png|jpg|JPG|svg)$/,
                 use: [
                     {
-                        loader: "file-loader",
+                        loader: "url-loader",
                         options: {
-                            name: "images/[name].[ext]"
+                            limit: 10000,
+                            name: 'images/[name].[ext]'
                         }
                     },
                     {
-                        loader: "image-webpack-loader",
-                        options: {
-                            bypassOnDebug: true,
-                            disable: true
-                        }
+                        loader: "image-webpack-loader"
                     }
                 ]
             },

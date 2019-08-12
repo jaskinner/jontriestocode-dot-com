@@ -7,11 +7,11 @@ const OptimizeCSSAssetsPlugin = require('optimize-css-assets-webpack-plugin')
 const webpackProdConfig = merge(webpackBaseConfig, {
     mode: 'production',
     output: {
-        // filename: "[name].[chunkhash].js"
+        filename: "[name].[chunkhash].js"
     },
     optimization: {
         minimizer: [new TerserJSPlugin(), new OptimizeCSSAssetsPlugin()],
-        // splitChunks: {chunks: "all"}
+        splitChunks: {chunks: "all"}
     }
 })
 
