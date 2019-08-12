@@ -1,0 +1,99 @@
+include ../mixins/mixins
+doctype html
+html(lang="en")
+    head
+        script(async src="https://www.googletagmanager.com/gtag/js?id=UA-123795143-2")
+        script.
+            window.dataLayer = window.dataLayer || []
+            function gtag() {
+                dataLayer.push(arguments)
+            }
+            gtag('js', new Date())
+
+            gtag('config', 'UA-123795143-2')
+
+        meta(charset="UTF-8")
+        meta(name="viewport" content="width=device-width, initial-scale=1.0")
+        meta(name="description" content="Jon Skinner is a ServiceNow CSA and web developer in Raleigh specializing in Wordpress and Bootstrap")
+        meta(name="author" content="Jon Skinner")
+        meta(name="msapplication-TileColor" content="#ffffff")
+        meta(name="msapplication-TileImage" content="/ms-icon-144x144.png")
+        meta(name="theme-color" content="#ffffff")
+
+        title jonTriesToCode()
+
+        block vars
+
+        block css
+            // Favicons
+            link(rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png")
+            link(rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png")
+            link(rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png")
+            link(rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png")
+            link(rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png")
+            link(rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png")
+            link(rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png")
+            link(rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png")
+            link(rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png")
+            link(rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png")
+            link(rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png")
+            link(rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png")
+            link(rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png")
+            link(rel="shortcut icon" type="image/ico" href="assets/images/favicon.ico")
+            link(rel="manifest" href="/manifest.json")
+
+    body
+
+        = "\n"
+
+        // Preloader
+        .page-loader
+            .page-loader-inner
+                .spinner
+                    .double-bounce1
+                    .double-bounce2
+        // Preloader end
+
+        = "\n"
+
+        if ( header_transparent == true )
+            - var header_classes = "header-transparent"
+
+        // Header
+        header.header(class=header_classes)
+            .container-fluid
+
+                // Brand
+                .inner-header
+                    a.inner-brand(href="index.html") jonTriesToCode()
+
+                // Navigation
+                .inner-navigation.collapse
+                    include navigation/navigation-single
+
+                .extra-nav
+                    ul
+                        //- Do not remove this item (mobile menu toggle)
+                        li.nav-toggle
+                            a(href="#" data-toggle="collapse" data-target=".inner-navigation")
+                                span.menu-item-span #[i.ti-menu]
+        // Header end
+
+        = "\n"
+
+        // Wrapper
+        .wrapper
+
+            block content
+
+            = "\n"
+
+            include footer
+
+        // Wrapper end
+
+        // To top button
+        a(href="#top" class="scroll-top"): i.fas.fa-angle-up
+
+        = "\n"
+

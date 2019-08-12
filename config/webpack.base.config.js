@@ -29,7 +29,7 @@ module.exports = {
                 ]
             },
             {
-                test: /\.(png|jpg|JPG)$/,
+                test: /\.(png|jpg|JPG|svg)$/,
                 use: [
                     {
                         loader: "file-loader",
@@ -45,6 +45,10 @@ module.exports = {
                         }
                     }
                 ]
+            },
+            {
+                test: /\.pug$/,
+                use: ["pug-loader"]
             }
         ]
     },
@@ -55,10 +59,10 @@ module.exports = {
         }),
         new HtmlWebpackPlugin({
             title: "jontriestocode()",
-            template: "./src/index.html"
+            template: "./src/index.pug"
         }),
         new CleanWebpackPlugin({
-            dry: true
+            // dry: true
         }),
         new webpack.ProvidePlugin({
             $: "jquery",
