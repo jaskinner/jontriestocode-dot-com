@@ -1,4 +1,5 @@
 import './assets/scss/template.scss'
+import './assets/images/index'
 
 import 'popper.js'
 import 'bootstrap'

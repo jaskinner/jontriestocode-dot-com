@@ -20,11 +20,18 @@ module.exports = {
     module: {
         rules: [
             {
-                test: /\.scss$/,
+                test: /\.(scss|css)$/,
                 use: [
                     MiniCssExtractPlugin.loader,
                     'css-loader',
-                    'sass-loader'
+                    'resolve-url-loader',
+                    {
+                        loader: "sass-loader",
+                        options: {
+                            sourceMap: true,
+                            sourceMapContents: false
+                        }
+                    }
                 ]
             },
             {
@@ -46,6 +53,10 @@ module.exports = {
             {
                 test: /\.pug$/,
                 use: ["pug-loader"]
+            },
+            {
+                test: /\.(eot|ttf|woff|woff2)$/,
+                use: "file-loader"
             }
         ]
     },

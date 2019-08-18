@@ -2,6 +2,8 @@
 // Imports
 //
 
+@import "~font-awesome/scss/font-awesome";
+@import "../css/vertical";
 @import "style";
 @import "~bootstrap/scss/functions";
 @import "~bootstrap/scss/variables";
@@ -9,4 +11,4 @@
 @import "variables";
 @import "~bootstrap/scss/bootstrap";
 @import "components";
-@import "~aos/dist/aos.css";
+@import "~aos/dist/aos";

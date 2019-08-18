@@ -19,7 +19,9 @@
         var header             = $('.header'),
             one_page_nav       = $('.onepage-nav'),
             background         = $('[data-background], .slides-container li'),
-            margin_y           = $('[data-mY]');
+            margin_y           = $('[data-mY]'),
+            Isotope            = require('isotope-layout'),
+            imagesLoaded       = require('imagesloaded');
 
         /* ---------------------------------------------- /*
          * Collapse navbar on click
@@ -105,31 +107,33 @@
         /* Portfolio masonry
         /* - - - - - - - - - - - - - - - - - - - - - - - - - - - -  */
 
-        var filters    = $('.filters'),
-            worksgrid = $('.row-portfolio');
+        // TODO: This isn't working at all
 
-        $('a', filters).on('click', function() {
-            var selector = $(this).attr('data-filter');
-            $('.current', filters).removeClass('current');
-            $(this).addClass('current');
-            worksgrid.isotope({
-                filter: selector
-            });
-            return false;
-        });
-
-        $(window).on('resize', function() {
-            worksgrid.imagesLoaded(function() {
-                worksgrid.isotope({
-                    layoutMode: 'masonry',
-                    itemSelector: '.portfolio-item',
-                    transitionDuration: '0.4s',
-                    masonry: {
-                        columnWidth: '.grid-sizer',
-                    },
-                });
-            });
-        });
+        // var filters    = $('.filters'),
+        //     worksgrid = $('.row-portfolio');
+        //
+        // $('a', filters).on('click', function() {
+        //     var selector = $(this).attr('data-filter');
+        //     var iso = new Isotope(worksgrid[0], {
+        //         filter: selector
+        //     });
+        //     $('.current', filters).removeClass('current');
+        //     $(this).addClass('current');
+        //     return false;
+        // });
+        //
+        // $(window).on('resize', function() {
+        //     imagesLoaded(worksgrid, function() {
+        //         var isoto = new Isotope(worksgrid[0], {
+        //             layoutMode: 'masonry',
+        //             itemSelector: '.portfolio-item',
+        //             transitionDuration: '0.4s',
+        //             masonry: {
+        //                 columnWidth: '.grid-sizer',
+        //             },
+        //         })
+        //     });
+        // });
 
     });
 
