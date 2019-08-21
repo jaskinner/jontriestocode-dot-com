@@ -4,6 +4,7 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const { CleanWebpackPlugin } = require('clean-webpack-plugin')
 const webpack = require('webpack')
+const FaviconsWebpackPlugin = require('favicons-webpack-plugin')
 
 function resolve(dir) {
     return path.join(__dirname, '..', dir)
@@ -75,6 +76,7 @@ module.exports = {
         new webpack.ProvidePlugin({
             $: "jquery",
             jQuery: 'jquery'
-        })
+        }),
+        new FaviconsWebpackPlugin('./src/assets/images/favicon.png')
     ],
 }
